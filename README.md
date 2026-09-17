@@ -7,7 +7,7 @@
 > See [LICENSE.md](LICENSE.md) for the full copyright and license notice.
 
 <div align="center">
-     <h1>Cyber Detective's OSINT tools collection</h1>
+     <h1>mohd-rehan13's OSINT Tool Collection</h1>
      <img alt="GitHub stars" src="https://img.shields.io/github/stars/mohd-rehan13/OSINT_Tool_Collection"> 
      <img alt="GitHub forks" src="https://img.shields.io/github/forks/mohd-rehan13/OSINT_Tool_Collection"> <br>
      <br>
@@ -15,10 +15,10 @@
 </div>
 
 
-Hello! On my Twitter account [@cyb_detective](https://linktr.ee/cyb_detective) I post different services, techniques, tricks and notes about OSINT and more. I collect all the links from my tweets in this collection (already 1000+ services for a wide variety of purposes).
+Hello! I'm [mohd-rehan13](https://github.com/mohd-rehan13), and I maintain this derivative collection of OSINT tools originally compiled by @cyb_detective. I've collected and organized these resources for my own OSINT investigations and reference.
 
 
-Thank you for following me! [@cyb_detective](https://cybdetective.com)
+Thanks for visiting! Maintained by [mohd-rehan13](https://github.com/mohd-rehan13).
 
 
 
@@ -2514,4 +2514,4 @@ Command line cheat sheet for this collection made by [Coordinat Cat](https://git
 
 * * *
 
-Thank you for following me! [@cyb_detective](https://cybdetective.com)
+Thanks for visiting! Maintained by [mohd-rehan13](https://github.com/mohd-rehan13).

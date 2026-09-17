@@ -10,6 +10,11 @@
 <body>
 <p><b>Derivative of</b> <a href="https://github.com/cipher387/osint_stuff_tool_collection" target="_blank">cipher387/osint_stuff_tool_collection</a> (original, all rights reserved). <a href="https://github.com/mohd-rehan13/-OSINT_TOOL_COLLECTION-" target="_blank">This fork</a>.</p>
 	 
+<div id="searchContainer">
+  <input type="text" id="searchInput" placeholder="Search for hashtags..." autocomplete="off">
+</div>
+<div id="noResults" class="well">No hashtags match your search.</div>
+
 <div class="container">
   <div class="jumbotron">
 
@@ -92,6 +97,45 @@
             <a href="https://github.com/cipher387" class="cipher-387-button" data-show-count="false">Original author's projects</a>
 </div>
       
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const wells = document.querySelectorAll('.well');
+    const noResults = document.getElementById('noResults');
+
+    // Skip the first few wells (container, search container, no results, jumbotron)
+    const toolWells = Array.from(wells).slice(3);
+
+    searchInput.addEventListener('input', function() {
+        const searchTerm = this.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        toolWells.forEach(well => {
+            const text = well.textContent.toLowerCase();
+            if (searchTerm === '' || text.includes(searchTerm)) {
+                well.style.display = '';
+                visibleCount++;
+            } else {
+                well.style.display = 'none';
+            }
+        });
+
+        if (visibleCount === 0) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
+    });
+
+    // Handle Enter key
+    searchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+        }
+    });
+});
+</script>
 
 </body>
 </html>

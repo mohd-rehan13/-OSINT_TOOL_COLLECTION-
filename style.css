@@ -1,6 +1,99 @@
 .jumbotron
 {
 	text-align:center;
+	padding: 2rem 1rem;
+	background-color: #f8f9fa;
+	border-radius: 0.3rem;
+	margin-bottom: 2rem;
+}
+
+/* Search box styling */
+#searchContainer {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+#searchInput {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.75rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.25);
+}
+
+/* Results styling */
+.well {
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.well:hover {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.well h4, .well h5 {
+    margin-top: 0;
+}
+
+/* Hide no results message by default */
+#noResults {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 1.5rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    #searchInput {
+        width: 90%;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .well {
+        padding: 1rem;
+    }
+}
+
+/* Button enhancements */
+.btn {
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Footer/spacer */
+.spacer {
+    height: 4rem;
 }
 
 td

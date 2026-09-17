@@ -8,8 +8,8 @@
 
 <div align="center">
      <h1>Cyber Detective's OSINT tools collection</h1>
-     <img alt="GitHub stars" src="https://img.shields.io/github/stars/cipher387/osint_stuff_tool_collection"> 
-     <img alt="GitHub forks" src="https://img.shields.io/github/forks/cipher387/osint_stuff_tool_collection"> <br>
+     <img alt="GitHub stars" src="https://img.shields.io/github/stars/mohd-rehan13/OSINT_Tool_Collection"> 
+     <img alt="GitHub forks" src="https://img.shields.io/github/forks/mohd-rehan13/OSINT_Tool_Collection"> <br>
      <br>
      <br>
 </div>
